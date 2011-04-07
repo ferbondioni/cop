@@ -1,0 +1,54 @@
+/* Reset jQuery Mobile */
+.ui-body-c .ui-link, .ui-body-c .ui-link, .ui-body-c, .ui-body-c input, .ui-body-c select, .ui-body-c textarea, .ui-body-c button, .ui-footer{
+	font-weight: normal; 
+	color: inherit; 
+	font: inherit;
+	background: inherit;
+	text-shadow: none;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+.ui-header .ui-title{text-shadow: none; color: #999;}
+/* End reset */
+
+/*.ui-body-c{width: 640px !important;}*/
+body{background: red) fixed; font-family: Palatino, Georgia;font-size: 80%; }
+h3{font-size: 140%; color: white; text-align: center; font-style: italic;}
+h4{color: white; font-size: 130%;}
+.rounded{ -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+.home-title{margin-bottom: 4%;}
+.content{padding: 4%;}
+
+
+.menu{background: white; margin: 0;overflow: hidden; margin-bottom: 8%; font-size: 100%;}
+.menu  a.ui-link{font-weight: bold; color: #333; text-decoration: none; padding: 4% 3%; display: inline-block; border-bottom: 1px solid #f1f1f1;text-transform: uppercase; width: 44%; float: left;}
+.menu  a.ui-link:last-child{border-color: transparent !important;}
+.ui-link.border-right{border-right: 1px solid #f1f1f1;}
+
+.menu  a.ui-link, .ui-link.border-right{border-color: #ccc;}
+
+
+.latest-news{background: #333; margin-top: 20px; margin-bottom: 2%; overflow: hidden;}
+a.ui-link.entry{overflow: hidden; color: white; text-decoration: none; font-size: 120%; display: block; padding: 2%;}
+a.ui-link.entry:last-child{border-color: transparent !important;}
+
+
+.entry-date{margin-right: 20px; width: 30%; text-align: center; float: left; display: inline-block; border-right: 1px solid #222; padding-right: 20px;}
+#footer{background: #111; display: block; padding: 0 2%; color: #666; text-align: center;}
+
+
+.page_title{background: black; overflow: hidden;}
+.page_title .logo{float: right; width: 22%;}
+.page_title h2{color: white;  font-size: 400%; line-height:0%;}
+
+
+.ui-bar-a{background: white;}
+.ui-btn-up-a, .ui-btn-down-a{border: 1px solid #333 !important;}
+
+
+/* Project Page */
+.project-list{background: white;}
+a.ui-link.project{  display: block;  padding: 2%; background: transparent;}
