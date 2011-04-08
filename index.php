@@ -17,7 +17,10 @@
 					   <p>September</p>
 					 </div><!-- #box -->
 				
-				
+						<div id="boxes">
+							<a href="#">Call Us <span id="Call"></span></a>
+							<a href="#">Map & Directions</a>
+						</div>
 				
 			
 
