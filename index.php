@@ -5,7 +5,7 @@
 	<h3>Architectural Acoustics, Audio Visual and Technology Integration</h3>
 	   
 	
-	<div id="slider" class="pics">
+	<div id="slider" class="pics box-shadow">
 			<img src="images/wsdg_brasil-office.jpg"  alt="">
 			<img src="images/wsdg_europe-office.jpg"  alt="">
 		  <img src="images/wsdg_latin-office.jpg" alt="Wsdg Latin Office">
@@ -13,21 +13,18 @@
 	</div>
 	
 	<div class="box">
-	 	<h4><em>New York Studio</em></h4>
+	 	<h4>New York Studio</h4>
 	   <p>September 2011</p>
 	 </div><!-- #box -->
 
-		<div id="boxes">
+		<div id="boxes" class="box-shadow">
 			<div id="call">
 				<a href="">Call Us</a>
 				<p>011-m1111111</p>
 			</div>
 				
-				<span id="but"><img src="images/Phone 32x32.png" width="24" height="24" alt=""></span>
-				<span id="but1"><img src="images/Share 32x32.png" width="24" height="24" alt=""></span>
-				
 			<div id="map">
-				<a href="">Map & Directions</a>
+				<a href="">Map &amp; Directions</a>
 				<p>247 Martin Avenue</p>
 			</div>
 		</div>

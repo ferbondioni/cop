@@ -16,25 +16,25 @@
 
 <body>
 	<div id="page" data-role="page"> 
-		
+
 		<div class="header">
-			
+	
 			<div style="text-align: left">
 				<img src="images/logo.png" style="width: 120px" alt="Logo">
 			</div>
 			<div  id="contact">
 				<ul>
-					<li id="cont"><a href="#">Contact Us</a></li>
-					<li><a href="#">Map &amp; Directions</a></li>
+					<li id="cont"><a href="contactus.php">Contact Us</a></li>
+					<li id="dir"><a href="#">Map &amp; Directions</a></li>
 				</ul>
-				
+		
 			</div>
 
 			<nav class="clearfix">
 				<a href="http://localhost/cop/index.php">Hello<span class="active"></span></a>
-				<a href="aboutus.php"data-transition="flip">About Us<span class="active"></span></a>
+				<a href="aboutus.php"data-transition="slider">About Us<span class="active"></span></a>
 				<a href="portfolio.php">Portfolio<span class="active"></span></a>
 				<a href="services.php">Services<span class="active"></span></a>
 			</nav>
-			
+	
 		</div>

@@ -10,7 +10,7 @@
 	margin: 0;
 	text-decoration: none;
 }
-.ui-body-c .ui-link{font-weight: bold; display: inline-block; }
+.ui-body-c .ui-link{font-weight: bold; display: inline-block;}
 .ui-header .ui-title{text-shadow: none; color: #999;}
 /* End reset */
 
@@ -34,17 +34,27 @@ nav{
 .ui-body-c nav  a.ui-link{font-weight: bold; padding: 4% 4%;color:white;}
 .ui-body-c nav a.ui-link:active{color: #eee;}
 h3{margin-top: 0;}
-.active{ display: block; margin: auto; border-top: 10px solid transparent; border-bottom: 10px solid #B2BB1E; border-left: 10px solid transparent;  border-right: 10px solid transparent;font-size: 0px; line-height: 0%; width: 0px;}
+.active{display: block; margin: auto; border-top: 10px solid transparent; 
+	border-bottom: 10px solid #B2BB1E; border-left: 10px solid transparent;  
+	border-right: 10px solid transparent;font-size: 0px; line-height: 0%; width: 0px;
+}
+
+/*Index*/
+
 #slider{height: 130px; width: 300px;
-	 -moz-border-radius:5px; -webkit-border-radius: 5px;
-	 -moz-box-shadow: inset 0 0 5px 5px #000;
-	 -webkit-box-shadow: inset 0 0 5px 5px #000;
-	  box-shadow: inset 0 0 5px 5px #000;
-	}
-.pics { height: 130px; width: 300px;
-	}
+	 -moz-border-radius:5px;
+	 -webkit-border-radius: 5px;
+	  border-radius: 5px;
+}
+
+.box-shadow{
+	-moz-box-shadow: inset 0 0 5px 5px rgba(255,255,255,.6);
+	-webkit-box-shadow:  0 1px 1px rgba(255,255,255,.6);
+	 box-shadow:  0 1px 1px rgba(255,255,255,.6);
+}
+
 .pics img {
-    -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    -moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius: 5px;
 }
 .box{position:absolute;
 	left:198px;
@@ -53,90 +63,141 @@ h3{margin-top: 0;}
 	background: #000000;
 	padding:4px;
 	-moz-border-radius: 5px; -webkit-border-radius: 5px;
-	opacity:0.8;
-	}
+	background: rgba(0,0,0,.6);
+}
 .box p{color:white;text-shadow:#000000 1px 1px 1px; text-align:right; font-family:helvetica;margin:auto;font-size:80%;padding:4px;}
 .ui-body-c .box h4{color:white;text-shadow:#000000 1px 1px 2px; text-align:right; 
-	font-family:helvetica;margin:auto;font-weight:550 !important;}
+	font-family:helvetica;margin:auto;font-weight:550 !important;
+}
 
-#boxes{margin-top:10px; display:block;height:40px;width:300px;}
-#boxes a {padding:5px 0 0 30px;color:#ffffff;font-weight:bold;font-size:16px;font-family:arial;
-text-shadow: #000000 1px 2px 1px;}
-.ui-body-c #boxes p{padding:0 0 0 30px; margin-top:6px;
+/*Index 2*/
+
+#boxes{
+	margin-top:10px; display:block;height:57px;width:300px;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius:5px;
+}
+#boxes a {
+	color:#ffffff;font-weight:bold;font-size:16px;font-family:arial;
+    text-shadow: #000000 1px 2px 1px;
+}
+.ui-body-c #boxes p{
+	padding:0 0 0 35px; margin-top:6px;
 	text-shadow: #000000 1px 2px 2px; color:#bbbd95;
 	font-family: helvetica;
-	font-size: 90%  !important;
-	font-weight:460;
-	}
-.ui-body-c #boxes div{
-	background: #333; opacity:0.68;
-	}
+	font-size: 85%  !important;
+	font-weight:440;
+}
+.ui-body-c #boxes a{
+	background: rgba(0,0,0,.02);font-size: 98%;
+}
+.ui-body-c #boxes #call{
+	background:rgba(0,0,0,.5) url('../images/Phone 32x32.png') no-repeat 5px;
+}
+.ui-body-c #boxes #call a{
+	padding:10px 0 0 35px
+}
+.ui-body-c #boxes #call p{
+	padding:0px 0 0 35px
+}
+.ui-body-c #boxes #map{
+	background:rgba(0,0,0,.5) url('../images/Map 32x32.png') no-repeat 10px;
+}
+.ui-body-c #boxes #map a{
+	padding:10px 0 0 45px
+}
+.ui-body-c #boxes #map p{
+	padding:0px 0 0 45px
+}
 #call{
-	float:left;width:115px;padding-left:8px;height:57px;
-	position:relative;-moz-border-radius: 5px 0px 0px 5px; -webkit-border-radius: 5px 0px 0px 5px;
-	}	
+	float:left;
+	width:115px;
+	padding-left:8px;
+	height:57px;
+	-moz-border-radius: 5px 0px 0px 5px; 
+	-webkit-border-radius: 5px 0px 0px 5px;
+}	
 #call p{width:160px !important;}
-/*#loco{padding:0 0 0 30px; margin-top:4px;
-	text-shadow: black 1px 1px 1px; color:white;
-	font-family: helvetica;
-	font-size: 90%  !important;}*/
-/*#call p{margin:4px 0px 0px 0px !important;}*/
-#but{
-	position:absolute;
-	bottom:68px;
-	left:22px;
-	}
-#but1{
-	position:absolute;           
-	bottom:68px;                 
-	right:150px;                   
-	}                            
-	
 #map{
 	float:right;width:170px;padding-left:5px;
 	height:57px;-moz-border-radius: 0px 5px 5px 0px; -webkit-border-radius: 0px 5px 5px 0px;
-	}
+}
 .ui-body-c #boxes a.ui-link:active{
 	color:#fcf2c6;
-	}
+}
 	
-/*About Us Page*/	
-.caja{
-	background: #333;
-	-moz-border-radius: 5px; -webkit-border-radius: 5px;
- 	opacity:0.5;
-	margin-top:10px; display:block;height:40px;width:214px;
-}
-.caja h2{padding:10px 0px 10px 60px;text-shadow: #000000 1px 1px 1px;color:white;}
-.team{
-	position:absolute;
-	bottom:80px;
-	left:20px;
-}
-#contact{position:absolute;right:15px;top:1px;}
-#contact li {
+/*Header 2*/
+
+#cont{
 	list-style:none;background:#cbcbcb;
 	-moz-border-radius: 5px; -webkit-border-radius: 5px;padding:1px 3px 2px 3px;
 	margin:4px;color:#6d6d6d;font-size:80%;
-	}
-#cont{width:55px;}
+	position:absolute;right:15px;top:8px;
+}
+#dir{
+   list-style:none;background:#cbcbcb;
+   -moz-border-radius: 5px; -webkit-border-radius: 5px;padding:1px 3px 2px 3px;
+   margin:4px;color:#6d6d6d;font-size:80%;
+   position:absolute;right:15px;top:30px;
+}
 .ui-body-c #contact a.ui-link:active
 {
 	color:black;
 }
+
+/*Pages*/
+
 .caja2{
-	   background: #333;
-      -moz-border-radius:0px 5px 5px 0px; -webkit-border-radius: 0px 5px 5px 0px;
-       opacity:0.68;
-       margin-top:10px; display:block;height:40px;width:240px;margin-left:54px;}
-.caja2 h2{text-shadow: #000000 1px 1px 1px;color:#ffffff;padding:8px 0px 0px 10px;}
-.foto img{float:left;-moz-border-radius: 5px 0px 0px 5px; -webkit-border-radius: 5px 0px 0px 5px;
-	width:54px;height:40px;}
-#boxe{margin-top:10px; display:block;height:40px;width:300px;}
+	   background: rgba(0,0,0,.5) url('../images/Users 48x48.png')no-repeat 10px;
+      -moz-border-radius:5px 5px 5px 5px; 
+      -webkit-border-radius: 5px 5px 5px 5px;
+       border-radius: 5px;
+       margin-top:10px; display:block;height:40px;width:300px;
+}
+.caja2 h2{text-shadow: #000000 1px 1px 1px;color:#ffffff;padding:8px 0px 0px 60px;}
 
+.foto img{
+	float:left;-moz-border-radius: 5px 0px 0px 5px; -webkit-border-radius: 5px 0px 0px 5px;
+	width:27px;height:20px;
+}
+.boxe2{
+	margin-top:10px; display:block;height:40px;width:300px;
+}
 
+/*Portfolio/Services*/
 
+.caja3{
+	   background: rgba(0,0,0,.5);
+      -moz-border-radius:5px 5px 5px 5px; 
+      -webkit-border-radius: 5px 5px 5px 5px;
+       border-radius: 5px;
+       margin-top:5px; display:block;height:20px;width:300px;
+}
+.caja3 h4{text-shadow: #000000 1px 1px 1px;color:#ffffff;padding:2px 0px 0px 50px;margin:auto;}
 
+.boxe3{
+	margin-top:8px; display:block;height:20px;width:300px;
+}
 
+/*Contact Us*/
 
+.caja4{
+	   background: url('../images/wsdg_new-york-office.jpg')no-repeat;
+      -moz-border-radius:5px 5px 5px 5px; 
+      -webkit-border-radius: 5px 5px 5px 5px;
+       border-radius: 5px;
+       margin-top:10px; display:block;height:100px;width:300px;
+}
+.caja4 h3{
+	text-shadow: #000000 1px 1px 1px;color:#ffffff;
+	padding:6px 0px 0px 6px;font-family:arial;margin:auto
+}
+.caja4 p{
+	margin:auto; font-size:80%;color:#ffffff;
+	text-shadow: #000000 1px 1px 1px;padding:2px 0px 0px 6px;
+	}
+.boxe3{
+	margin-top:10px; display:block;height:40px;width:300px;
+}
 

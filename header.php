@@ -25,8 +25,8 @@
 
 			<nav class="clearfix">
 				<a href="http://localhost/cop/index.php">Hello<span class="active"></span></a>
-				<a href="aboutus.php"data-transition="flip">About Us<span class="active"></span></a>
-				<a href="portfolio.php" data-transition="flip">Portfolio<span class="active"></span></a>
+				<a href="aboutus.php"data-transition="slide">About Us<span class="active"></span></a>
+				<a href="portfolio.php" data-transition="slide">Portfolio<span class="active"></span></a>
 				<a href="services.php">Services<span class="active"></span></a>
 			</nav>
 			
